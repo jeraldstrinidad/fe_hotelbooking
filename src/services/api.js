@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://be-hotelbooking.vercel.app/api',
+  baseURL: 'https://be-hotelbooking.vercel.app/api',
   headers: { Accept: 'application/json' }
 })
 
